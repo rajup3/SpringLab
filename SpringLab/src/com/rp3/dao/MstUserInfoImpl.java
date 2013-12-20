@@ -1,4 +1,4 @@
-package com.rxoffice.dao;
+package com.rp3.dao;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.rxoffice.entity.MstUserInfo;
+import com.rp3.entity.MstUserInfo;
 
 @Repository
 public class MstUserInfoImpl implements MstUserInfoDAO {

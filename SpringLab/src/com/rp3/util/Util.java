@@ -1,6 +1,6 @@
-package com.rxoffice.util;
+package com.rp3.util;
 
-public class RxUtil {
+public class Util {
 	
 	private String getSessionID(String userID) {
 		String time;

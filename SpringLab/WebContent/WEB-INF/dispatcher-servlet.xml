@@ -15,7 +15,7 @@
 	   		>
 
 	<context:annotation-config />
-    <context:component-scan base-package="com.rxoffice" />
+    <context:component-scan base-package="com.rp3" />
 
 	<!-- bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
 	     <property name="mappings">
@@ -28,10 +28,10 @@
           </property>
     </bean-->
     
-	<!-- bean id="loginController" class="com.rxoffice.controller.LoginController">
+	<!-- bean id="loginController" class="com.rp3.controller.LoginController">
     	<!- property name="geekNewsService" ref="geekNewsService" /->
    	</bean-->
-   	<!-- bean id="homePageController" class="com.rxoffice.controller.HomePageController">
+   	<!-- bean id="homePageController" class="com.rp3.controller.HomePageController">
    	</bean-->
 	
 	<!-- Using InternalResourceViewResolver view resolver -->

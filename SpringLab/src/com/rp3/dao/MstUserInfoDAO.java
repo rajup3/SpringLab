@@ -1,8 +1,8 @@
-package com.rxoffice.dao;
+package com.rp3.dao;
 
 import java.util.List;
 
-import com.rxoffice.entity.MstUserInfo;
+import com.rp3.entity.MstUserInfo;
 
 
 public interface MstUserInfoDAO {

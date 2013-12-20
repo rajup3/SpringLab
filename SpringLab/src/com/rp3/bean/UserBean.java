@@ -1,4 +1,4 @@
-package com.rxoffice.bean;
+package com.rp3.bean;
 
 public class UserBean {
 

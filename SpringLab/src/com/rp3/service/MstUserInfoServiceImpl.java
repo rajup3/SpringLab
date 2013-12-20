@@ -1,11 +1,11 @@
-package com.rxoffice.service;
+package com.rp3.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.rxoffice.dao.MstUserInfoDAO;
-import com.rxoffice.entity.MstUserInfo;
+import com.rp3.dao.MstUserInfoDAO;
+import com.rp3.entity.MstUserInfo;
 
 @Service
 public class MstUserInfoServiceImpl implements MstUserInfoService {

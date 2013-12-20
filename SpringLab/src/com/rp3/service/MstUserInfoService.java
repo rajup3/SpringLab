@@ -1,6 +1,6 @@
-package com.rxoffice.service;
+package com.rp3.service;
 
-import com.rxoffice.entity.MstUserInfo;
+import com.rp3.entity.MstUserInfo;
 
 public interface MstUserInfoService {
 

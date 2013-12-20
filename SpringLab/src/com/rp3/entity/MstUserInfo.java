@@ -1,4 +1,4 @@
-package com.rxoffice.entity;
+package com.rp3.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

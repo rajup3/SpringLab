@@ -1,4 +1,4 @@
-package com.rxoffice.controller;
+package com.rp3.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.rxoffice.entity.MstUserInfo;
-import com.rxoffice.service.MstUserInfoService;
+import com.rp3.entity.MstUserInfo;
+import com.rp3.service.MstUserInfoService;
 
 @Controller
 public class LoginController {
@@ -25,8 +25,8 @@ public class LoginController {
 		MstUserInfo userInfo = new MstUserInfo();
 		
 		userInfo.setUserId("171");
-		//userInfo.setFirstName("Prashant");
-		//userInfo.setLastName("Baviskar");
+		//userInfo.setFirstName("Raju");
+		//userInfo.setLastName("Patel");
 		userInfo.setPassword("admin");
 		/*
 		userInfoService.addUser(userInfo);*/
